@@ -1,0 +1,224 @@
+.checking {
+  color: white;
+  background-color: #0a0a0a;
+  width: 100%;
+  height: 566px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.checkAd {
+  display: flex;
+  width: 100%;
+  height: 54px;
+  justify-content: space-between;
+  padding: 12px 36px 21px 27px;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  line-height: normal;
+  margin-top: 12px;
+}
+.newP1 {
+  color: white;
+  font-weight: 500;
+}
+.newP2 {
+  color: #868894;
+  font-weight: 400;
+}
+.card {
+  width: 91%;
+  /* width: 328px; */
+  height: 221px;
+  border-radius: 15px;
+  background: #191919;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+.cardDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  height: 100%;
+  width: 100%;
+padding: 12px 11px 13px 12px;
+}
+.createBtn {
+  width: 92%;
+  height: 56px;
+  flex-shrink: 0;
+  background-color: #43a045;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  border: none;
+  justify-content: center;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+position: fixed;
+bottom: 0;
+
+}
+.cardChild1 {
+  width: 100%;
+  height: 86px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cardChild2 {
+  width: 100%;
+  height: 135px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cardChildText {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around;  */
+  padding-bottom: 13px\;;
+}
+.user {
+  display: flex;
+  width: 86px;
+  height: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+.userImg {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}
+p {
+  font-family: Roboto;
+  font-style: normal;
+  line-height: normal;
+}
+.price {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 500;
+}
+.priceDesc {
+  color: #868894;
+  width: 138px;
+  height: 28px;
+  font-size: 12px;
+  font-weight: 400;
+}
+.valueText {
+  height: 82px;
+  padding-top: 19px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.setValues {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  height: 14px;
+}
+.setValueDiv {
+  height: 20px;
+  display: flex;
+  align-items: center;
+}
+.value {
+  color: #868894;
+  height: 14px;
+  font-size: 12px;
+  font-weight: 400;
+  /* width: 40%; */
+}
+
+.priceDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+}
+.btnBuy {
+  width: 70px;
+  height: 32px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #868894;
+  border: none;
+  color: #191919;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.commision {
+  color: #868894;
+  text-align: center;
+  font-size: 12px;
+  width: 100%;
+  height: 46px;
+  padding: 12px 22px 20px 30px;
+  font-weight: 300;
+}
+.commentDiv{
+  width: 100%;
+  padding-right: 16px ;
+  padding-left:17px;
+}
+.comment {
+  width: 100%;
+  height: 56px;
+  display: flex;
+  flex-shrink: 0;
+  border-radius: 15px;
+  background-color: #191919;
+}
+.commentImg {
+  width: 56px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+}
+.commentImgFon {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  justify-content: center;
+  flex-shrink: 0;
+  background-color: #1e251e;
+}
+.circleImg {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.commentText {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 400;
+}
+.commentText2 {
+  color: #868894;
+  font-size: 14px;
+}
+.commentText1 {
+  color: #fff;
+}

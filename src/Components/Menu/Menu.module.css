@@ -1,0 +1,276 @@
+.menu {
+  color: white;
+  background-color: #0a0a0a;
+  width: 100%;
+  height: 802px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.createNew {
+  display: flex;
+  width: 100%;
+  height: 45px;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  padding-left: 27px;
+  padding-right: 36px;
+  margin-top: 12px;
+}
+
+.newP1 {
+  color: white;
+  font-weight: 500;
+}
+
+.newP2 {
+  color: #868894;
+  font-weight: 400;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 242px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn {
+  width: 92%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 56px;
+  border-radius: 10px;
+  border: none;
+  background-color: #191919;
+}
+
+.btnDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  width: 90%;
+}
+
+.btnText {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.btnBuySell {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 208px;
+  height: 29px;
+  border-radius: 5px;
+  border: none;
+  background: #0a0a0a;
+}
+
+.btnBuySell button.active {
+  background-color: rgba(30, 37, 30, 1);
+  color: #43a045;
+}
+
+select {
+  color: #43a045;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.btnSell {
+  color: #43a045;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  width: 100%;
+}
+
+.btnBuySell button:hover {
+  background-color: rgba(30, 37, 30, 1);
+  color: #43a045;
+}
+
+.btnBuySell button {
+  width: 99px;
+  height: 25px;
+  flex-shrink: 0;
+  border-top: none;
+  border-left: none;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn1 {
+  color: #868894;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background-color: rgba(10, 10, 10, 1);
+}
+
+.divSvg {
+  display: flex;
+  align-items: center;
+}
+
+.precent {
+  color: #a2a1a7;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.precentDiv {
+  display: flex;
+  width: 84%;
+  height: 44px;
+  padding-top: 20px;
+  padding-bottom: 8px;
+}
+
+.precentBtn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 56px;
+  border-radius: 10px;
+  border: none;
+  background-color: #191919;
+}
+
+.precentBtnDiv {
+  height: 100%;
+  width: 45%;
+  padding-left: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.precentBtnDiv input {
+  width: 100%;
+  height: 4vh;
+  border: none;
+}
+
+.precentPrice {
+  width: 92%;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: space-between;
+}
+
+.price {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.precentResult {
+  display: flex;
+  flex-direction: column;
+  width: 92%;
+  height: 32px;
+  padding-left: 13px;
+  justify-content: space-between;
+}
+
+.precentBalanse {
+  width: 92%;
+  height: 82px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: space-between;
+}
+
+.balanse {
+  display: flex;
+  width: 215px;
+  height: 14px;
+  padding-left: 13px;
+  justify-content: space-between;
+  /* align-items: center; */
+  font-size: 18px;
+}
+
+.max {
+  color: #43a045;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.next {
+  width: 92%;
+  height: 56px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  border: none;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+
+}
+
+.nextBtn {
+  width: 100%;
+  height: 100%;
+  flex-shrink: 0;
+  background-color: #43a045;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  border: none;
+  justify-content: center;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.sum {
+  width: 92%;
+  height: 132px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btnTime {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 56px;
+  border-radius: 10px;
+  border: none;
+  background-color: #191919;
+}

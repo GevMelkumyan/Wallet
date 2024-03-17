@@ -1,0 +1,68 @@
+.TelegramAkk {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.telegramakk {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.close {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.h4 {
+  width: 280px;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  margin-right: 3.2rem;
+}
+
+.input {
+  width: 92%;
+  height: 28px;
+  padding: 12px;
+  border-radius: 10px;
+  color: white;
+  background: none;
+  border: none;
+}
+
+.input::placeholder {
+  color: rgba(134, 136, 148, 1);
+}
+
+.akk_div {
+  width: 100%;
+}
+
+.user_div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.vector {
+  width: 32px;
+  height: 32px;
+  margin-right: 16px;
+  margin-bottom: 16px;
+}
+
+.h2 {
+  color: white;
+  font-size: 14px;
+}
+
+.close_icon {
+  margin-left: 5px;
+}

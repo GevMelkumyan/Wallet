@@ -1,0 +1,90 @@
+.selectWrapper {
+    width: 50%;
+    gap: .8rem;
+    position: relative;
+}
+
+.selectInput {
+    width: auto;
+    // border: 1px solid transparent;
+
+    // padding: 1rem 1.2rem;
+    height: auto;
+    border: none;
+    border-radius: 0;
+    outline: none;
+    color: #48B14A;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: none;
+    text-align: end;
+
+    &:disabled {
+        cursor: not-allowed;
+    }
+}
+
+.selectIcon {
+    width: 1.6rem;
+    height: 1.6rem;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 1rem;
+    pointer-events: none;
+}
+
+.primary {
+    width: 80px;
+    height: 45px;
+    gap: unset;
+    border-radius: 8px;
+    background: #191919;
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+    justify-content: center;
+
+    .selectTitle {
+        color: #868894;
+        font-family: Roboto;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .selectInput {
+        justify-content: flex-start;
+        text-align: start;
+        color: #fff;
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .selectInput {
+        width: 100%;
+        height: 100%;
+
+        input {
+            margin-left: unset;
+            margin-right: unset;
+        }
+    }
+
+    .icon {
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+    }
+}
+
+.small {
+    width: 45%;
+}

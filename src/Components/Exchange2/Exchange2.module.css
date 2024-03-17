@@ -1,0 +1,179 @@
+.Exchange2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+.div_1 {
+  width: 90%;
+  display: flex;
+  margin-top: 12px;
+  align-items: center;
+}
+
+.icon_div {
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.12);
+  border-radius: 10px;
+}
+
+.p {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 10px;
+}
+
+.div_num {
+  display: flex;
+  margin-left: auto;
+  gap: 9px;
+}
+
+.p_text {
+  color: #48b14a;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.p_num {
+  color: #868894;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.div_2 {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+}
+
+.points {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.h6 {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.point_p {
+  color: #a2a1a7;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 16px;
+  margin-top: 4px;
+}
+
+.p_price {
+  color: #868894;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 8px;
+}
+
+.line {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 16px;
+}
+
+.div_arroww {
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+  background-color: #1e251e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.valut_div {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.div_btc {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.btc_1 {
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 0.12);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.btc_name {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.div_btc_num {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.btn {
+  width: 90%;
+  height: 56px;
+  flex-shrink: 0;
+  background-color: rgba(72, 177, 74, 1);
+  color: #fff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  border-radius: 10px;
+}

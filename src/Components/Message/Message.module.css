@@ -1,0 +1,114 @@
+.message {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #0a0a0a;
+}
+
+.messageDiv {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.exampleDiv input {
+  padding: 13px;
+  width: 90%;
+}
+
+.commentTitle {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding-top: 12px;
+  padding: 12px 36px 16px 27px;
+  padding-bottom: 16px;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  line-height: normal;
+  margin-top: 12px;
+}
+
+.newP1 {
+  color: white;
+  font-weight: 500;
+  width: 202px;
+}
+
+.newP2 {
+  color: #868894;
+  font-weight: 400;
+}
+
+input {
+  width: 328px;
+  height: 110px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 1px solid #868894;
+  background: #191919;
+  display: flex;
+  justify-content: center;
+  /* margin-left: 17px;
+  margin-right: 15px; */
+}
+
+input ::placeholder {
+  width: 210px;
+}
+
+.nextBtn {
+  width: 90%;
+  height: 56px;
+  flex-shrink: 0;
+  background-color: #43a045;
+  display: flex;
+  border-radius: 10px;
+  align-items: center;
+  border: none;
+  justify-content: center;
+  color: #fff;
+  margin: 226px 16px 8px 17px;
+  font-size: 16px;
+  font-weight: 600;
+  position: absolute;
+  bottom: 0;
+}
+
+.exampleDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #868894;
+  width: 100%;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  padding: 13px;
+  gap: 12px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.exampleText {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 30px;
+  font-size: 14px;
+}
+
+.example {
+  font-weight: 600;
+}
+
+.example1 {
+  font-weight: 300;
+  width: 308px;
+  padding-right: 22px;
+}

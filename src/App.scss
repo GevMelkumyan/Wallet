@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
+
+:root {
+  --disabledBtnColor: #303030;
+  --btnColor: #48b14a;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto;
+  font-style: normal;
+  line-height: normal;
+}
+
+
+a[disabled] {
+  pointer-events: none;
+  background-color: var(--disabledBtnColor);
+}
+
+body {
+  background-color: #0a0a0a;
+  color: white;
+}
+
+.rounded {
+  border-radius: 50%;
+}
+
+input {
+  outline: none;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+svg {
+  color: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  object-fit: cover;
+}
+
+button {
+  cursor: pointer;
+}
+
+.hint {
+  color: #868894;
+}
+.title {
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.text {
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 6px;
+  width: 250px;
+  color: #a2a1a7;
+}
+.actionBlock {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 56px;
+  flex-shrink: 0;
+  background-color: #191919;
+  border-radius: 10px;
+  padding: 0 12px;
+
+  .actionIconBlock {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    .iconBack {
+      display: flex;
+      width: 30px;
+      height: 30px;
+      border-radius: 10px;
+      padding: 5px;
+      background-color: #1e251e;
+      align-items: center;
+      justify-content: center;
+    }
+    .iconBackNotification {
+      display: flex;
+      width: 30px;
+      height: 30px;
+      border-radius: 10px;
+      padding: 5px;
+      background-color: #2a1e2c;
+      align-items: center;
+      justify-content: center;
+    }
+    .iconBackFAQ {
+      display: flex;
+      width: 30px;
+      height: 30px;
+      border-radius: 10px;
+      padding: 5px;
+      background-color: #2e2119;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .createAdTextWhite {
+      color: #fff;
+      font-size: 14px;
+      font-weight: 400;
+    }
+    .actionText {
+      display: flex;
+      flex-direction: column;
+      :first-child {
+        color: #fff;
+
+        font-size: 14px;
+        font-weight: 400;
+      }
+      :last-child {
+        font-size: 12px;
+        font-weight: 400;
+      }
+    }
+  }
+}
+
+.createAdText {
+  color: #43a045;
+  font-size: 14px;
+  font-weight: 400;
+}

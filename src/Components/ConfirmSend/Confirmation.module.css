@@ -1,0 +1,126 @@
+.ConfirmSend {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 12px;
+}
+
+.ConfirmSend svg {
+    width: 80%;
+    height: 80%;
+}
+
+.clock_div {
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0;
+    background-color: #1E251E;
+    border-radius: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 14px;
+}
+
+.h3 {
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 18px;
+}
+
+.p {
+    width: 285px;
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 6px;
+}
+
+.p_p {
+    width: 193px;
+    color: #48B14A;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 24px;
+}
+
+.btn {
+    width: 90%;
+    height: 56px;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    background-color: #48B14A;
+    border-radius: 10px;
+
+}
+
+.but_div {
+    width: 90%;
+    display: flex;
+    gap: 8px;
+    position: fixed;
+    bottom: 84px;
+}
+
+.btn1 {
+    width: 49%;
+    display: flex;
+    height: 56px;
+    padding: 18px 25px 19px 24px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 10px;
+    color: #E34F44;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 10px;
+    background: #251E1E;
+    border: none;
+
+}
+
+.btn2 {
+    width: 49%;
+    display: inline-flex;
+    height: 56px;
+    padding: 19px 37px 18px 35px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #1E251E;
+    border: none;
+    color: #48B14A;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}

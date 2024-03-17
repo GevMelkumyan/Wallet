@@ -1,0 +1,63 @@
+.divBig {
+    width: 100%;
+    height: 558px;
+    display: flex;
+    flex-direction: column;
+    background-color: #0A0A0A;
+}
+
+.div1 {
+    width: 80px;
+    height: 80px;
+    border-radius: 13px;
+    background-color: rgba(30, 37, 30, 1);
+    margin-top: 14px;
+    margin-left: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.waittext {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 18px;
+    margin-left: 83px;
+}
+
+.longtext {
+    width: 285px;
+    text-align: center;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 6px;
+    margin-left: 38px;
+}
+
+.sendtext {
+    color: rgba(72, 177, 74, 1);
+    font-size: 14px;
+    margin-top: 24px;
+    margin-left: 84px;
+    width: 193px;
+    text-align: center;
+}
+
+.linkbtn{
+    /* width: 327px; */
+    height: 56px;
+    background-color: rgba(72, 177, 74, 1);
+    color: rgba(255, 255, 255, 1);
+    border-radius: 10px;
+    /* border: none;
+    outline: none; */
+    margin-top: 291px;
+    margin:0 16px 0 17px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.linkbtn p{
+    font-size: 16px;
+    margin-top: 19px;
+}

@@ -1,0 +1,74 @@
+.Checkin {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.div_chek svg {
+    width: 100%;
+}
+
+.div_chek {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    background: #191919;
+    margin-top: 12px;
+    padding: 10px;
+}
+
+.div1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+.inp {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    border-radius: 10px;
+
+}
+
+
+.inp:checked {
+    accent-color: #48B14A;
+}
+
+.h4 {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.div2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    width: 90%;
+    height: 56px;
+    border-radius: 10px;
+    position: fixed;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: #48B14A;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}

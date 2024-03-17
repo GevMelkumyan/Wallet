@@ -1,0 +1,301 @@
+.Sale1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Sale1 img {
+  width: 20px;
+  height: 20px;
+}
+
+.Sale1 Line {
+  width: 100%;
+}
+
+.div_sel {
+  width: 97%;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  margin-top: 12px;
+}
+
+.div_1 {
+  width: 21%;
+  /* height: 45px; */
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #191919;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ddiv_name {
+  margin-left: 5px;
+}
+
+.p1 {
+  color: #868894;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.h6 {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 1px;
+}
+
+select {
+  background: none;
+  border: none;
+  color: white;
+  background-color: transparent;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+select::after {
+  margin-top: 200px;
+}
+
+
+
+
+.div_2 {
+  width: 92px;
+  height: 45px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #191919;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.h_6 {
+  color: #868894;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.div_cript {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  background: #191919;
+  margin-top: 12px;
+  align-items: center;
+  padding-bottom: 12px;
+}
+
+.cript_div {
+  width: 100%;
+  height: 72px;
+  display: flex;
+
+}
+
+.cripto_1 {
+  width: 43%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-top: 12px;
+  margin-left: 11px;
+}
+
+.cripto_2 {
+  display: flex;
+  margin-top: 12px;
+  margin-left: auto;
+  margin-right: 11px;
+  gap: 6px;
+}
+
+.div_arrow {
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background-color: #1e251e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn_sale {
+  width: 73px;
+  height: 32px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #48b14a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #191919;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.div_cr {
+  width: 100%;
+  display: flex;
+}
+
+.cr_1 {
+  width: 50%;
+  height: 100%;
+}
+
+.div_img {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-top: 12px;
+  margin-left: 12px;
+}
+
+.p_dost {
+  color: #868894;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 12px;
+  margin-left: 12px;
+}
+
+.p_lim {
+  color: #868894;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 6px;
+  margin-left: 12px;
+}
+
+.p_vvod {
+  color: #868894;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 20px;
+  margin-left: 12px;
+}
+
+.cr_2 {
+  width: 50%;
+  height: 100%;
+}
+
+.div_tex {
+  display: flex;
+  gap: 7px;
+  margin-top: 15px;
+  margin-left: 5px;
+}
+
+.p_p {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.pp {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.p_num {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 5px;
+  margin-top: 15px;
+}
+
+.lim_num {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 6px;
+  margin-left: 5px;
+}
+
+.vvod_nam {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 7px;
+  margin-left: 5px;
+}
+
+.h5 {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.crip_p {
+  color: #868894;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.h_5 {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

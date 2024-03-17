@@ -1,0 +1,78 @@
+.SaleHumo {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.h5 {
+  color: #a2a1a7;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 12px;
+  margin-right: auto;
+  margin-left: 28px;
+}
+
+.div_name {
+  width: 90%;
+  height: 37px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 1px solid #868894;
+  background: #191919;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+  padding-left: 13px;
+  margin-top: 12px;
+}
+
+.input {
+  width: 90%;
+  height: 37px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 1px solid #868894;
+  background: #191919;
+  color: white;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 12px;
+  padding-left: 13px;
+}
+
+.input::placeholder {
+  color: #868894;
+}
+
+.btn {
+  width: 90%;
+  height: 56px;
+  flex-shrink: 0;
+  background-color: #48b14a;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 8px;
+  border-radius: 15px;
+  cursor: pointer;
+}

@@ -1,0 +1,16 @@
+/* SwitchStyles.css */
+.ios_switch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.react-switch-bg {
+  border-radius: 15px;
+}
+
+.react-switch-handle {
+  border-radius: 50%;
+}

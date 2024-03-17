@@ -1,0 +1,280 @@
+.divBig {
+  width: 100%;
+  height: 716px;
+  display: flex;
+  flex-direction: column;
+  background-color: #0a0a0a;
+}
+
+.div1 {
+  width: 60%;
+  height: 33px;
+  margin-left: 104px;
+  display: flex;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.person {
+  width: 32px;
+  height: 32px;
+}
+
+.div1s {
+  width: 80%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.div1s p {
+  font-size: 12px;
+  color: white;
+}
+
+.div1s h4 {
+  color: white;
+  margin-left: 5px;
+  font-size: 12px;
+}
+
+.codetext {
+  font-size: 14px;
+  color: rgba(134, 136, 148, 1);
+  margin-top: 6px;
+  /* margin-left: 134px; */
+  text-align: center;
+}
+
+.div2 {
+  /* width: 328px; */
+  height: 209px;
+  background-color: rgba(25, 25, 25, 1);
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  margin: 0 16px 0 16px;
+  margin-top: 20px;
+}
+
+.div2 p {
+  color: rgba(255, 255, 255, 1);
+}
+
+.div2s1 {
+  width: 100%;
+  height: 44px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 12px;
+  padding-right: 27px;
+  border-bottom: 1px solid #252629;
+}
+
+.div2s1 p {
+  font-size: 14px;
+  margin-top: 16px;
+}
+
+.div2s2 {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 12px;
+  padding-right: 27px;
+  border-bottom: 1px solid #252629;
+}
+
+.div2s2 p {
+  font-size: 14px;
+  margin-top: 12px;
+}
+
+.div2s3 {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 12px;
+  padding-right: 27px;
+  border-bottom: 1px solid #252629;
+}
+
+.div2s3 p {
+  font-size: 14px;
+  margin-top: 12px;
+}
+
+.div2s4 {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 12px;
+  padding-right: 27px;
+  border-bottom: 1px solid #252629;
+}
+
+.div2s4 p {
+  font-size: 14px;
+  margin-top: 12px;
+}
+
+.div2s5 {
+  width: 100%;
+  height: 45px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 12px;
+  padding-right: 27px;
+}
+
+.div2s5 p {
+  font-size: 14px;
+  margin-top: 12px;
+}
+
+.div3 {
+  /* width: 327px ; */
+  height: 56px;
+  border-radius: 10px;
+  margin: 0 17px 0 16px;
+  margin-top: 20px;
+  background-color: #191919;
+  display: flex;
+}
+
+.div3s1 {
+  width: 32px;
+  height: 32px;
+  background-color: rgba(30, 37, 30, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 12px;
+  margin-left: 12px;
+  border-radius: 10px;
+}
+
+.div3s2 {
+  width: 100px;
+  height: 50px;
+}
+
+.comtext {
+  color: rgba(255, 255, 255, 1);
+  margin-top: 12px;
+  margin-left: 12px;
+  font-size: 14px;
+}
+
+.hellotext {
+  color: rgba(134, 136, 148, 1);
+  margin-left: 12px;
+  margin-top: 3px;
+  font-size: 14px;
+}
+
+.div4 {
+  width: 327px;
+  height: 40px;
+  display: flex;
+  margin-left: 17px;
+}
+
+.div4s1 {
+  width: 32px;
+  height: 32px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 12px;
+  margin-top: 8px;
+  background-color: #2e2119;
+}
+
+.predtext {
+  font-size: 12px;
+  color: rgba(134, 136, 148, 1);
+  margin-top: 10px;
+  margin-left: 12px;
+  width: 271px;
+}
+
+.biotext {
+  font-size: 14px;
+  color: rgba(162, 161, 167, 1);
+  margin-left: 28px;
+  margin-top: 18px;
+}
+
+.div5 {
+  /* width: 328px; */
+  height: 84px;
+  background-color: rgba(25, 25, 25, 1);
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  margin: 0 17px 0 15px;
+  margin-top: 6px;
+}
+
+.div5s1 {
+  width: 100%;
+  height: 44px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 12px;
+  padding-right: 28px;
+  border-bottom: 1px solid #252629;
+}
+
+.div5s1 p {
+  color: white;
+  font-size: 14px;
+  margin-top: 16px;
+}
+
+.div5s2 {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 12px;
+  padding-right: 25px;
+}
+
+.div5s2 p {
+  color: white;
+  font-size: 14px;
+  margin-top: 12px;
+}
+
+.linkbtn {
+  width: 90%;
+  height: 56px;
+  border-radius: 10px;
+  background-color: #48b14a;
+  /* border: none;
+    outline: none; */
+  cursor: pointer;
+  color: white;
+  margin-top: 20px;
+  margin: 20px 17px 0 16px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+}
+
+.linkbtn p {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 19px;
+}
